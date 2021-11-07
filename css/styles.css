@@ -149,9 +149,34 @@ body {
   color: var(--first-text-color);
 }
 /* -----------------FOOTER-------------------------- */
+.footer-address-map:hover,
+.footer-address-map:focus {
+  color: var(--accent-color);
+}
+.footer-address-mail:hover,
+.footer-address-mail:focus {
+  color: var(--accent-color);
+}
+.footer-address-tel:hover,
+.footer-address-tel:focus {
+  color: var(--accent-color);
+}
+
 .footer-address-tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--fourth-text-color);
+}
+.footer-address-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
+.footer-address-map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
 }
