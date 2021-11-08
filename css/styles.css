@@ -52,7 +52,7 @@ body {
 .header-link:focus {
   color: var(--accent-color);
 }
-.header-link.current {
+.header-nav .link.current {
     color: var(--accent-color);
 }
 .header-contacts:hover,
@@ -210,4 +210,18 @@ body {
 }
 .footer {
     background-color: var(--background-block-color);
+}
+
+/* ---------PORTFOLIO-FILTER------ */
+.filter-button {
+    font-family: inherit;
+    font-weight: 700;
+
+    Font style: Medium
+font-size: 16px
+line-height: 1.63;
+Line height: 139%
+Align: Center
+Vertical align: Top
+Letter spacing: 3%
 }
