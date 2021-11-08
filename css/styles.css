@@ -55,6 +55,10 @@ body {
 .header-nav .link.current {
     color: var(--accent-color);
 }
+.header-contacts .link.current {
+    color: var(--accent-color);
+}
+
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--accent-color);
