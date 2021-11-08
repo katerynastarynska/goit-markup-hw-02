@@ -10,16 +10,15 @@
   --header-main-text-color: #000000;
   --header-second-text-color: #757575;
   --accent-color: #2196f3;
-  --background-block-color: #2F303A;
-  --background-block-secondary-color: 
-  #F5F4FA;
+  --background-block-color: #2f303a;
+  --background-block-secondary-color: #f5f4fa;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-title-color);
 }
-  
+
 .list {
   list-style: none;
 }
@@ -53,10 +52,10 @@ body {
   color: var(--accent-color);
 }
 .header-nav .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .header-contacts .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-contacts:hover,
@@ -106,11 +105,12 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--button-color);
   background-color: var(--accent-color);
 }
 .hero {
-    background-color: var(--background-block-color);
+  background-color: var(--background-block-color);
 }
 /* ----------------FEATURES---------------*/
 .features-title {
@@ -161,7 +161,7 @@ body {
   color: var(--first-text-color);
 }
 .our-team {
-    background-color: var(--background-block-secondary-color);
+  background-color: var(--background-block-secondary-color);
 }
 /* -----------------FOOTER-------------------------- */
 .footer-address-map:hover,
@@ -213,19 +213,23 @@ body {
   color: var(--logo-color);
 }
 .footer {
-    background-color: var(--background-block-color);
+  background-color: var(--background-block-color);
 }
 
 /* ---------PORTFOLIO-FILTER------ */
 .filter-button {
-    font-family: inherit;
-    font-weight: 700;
-
-    Font style: Medium
-font-size: 16px
-line-height: 1.63;
-Line height: 139%
-Align: Center
-Vertical align: Top
-Letter spacing: 3%
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  color: var(--second-title-color);
+  background-color: var(--background-block-secondary-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--button-color);
 }
