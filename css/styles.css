@@ -12,6 +12,7 @@
   --accent-color: #2196f3;
   --background-block-color: #2f303a;
   --background-block-secondary-color: #f5f4fa;
+  --background-color-third-color: #ffffff;
 }
 
 body {
@@ -233,3 +234,25 @@ body {
   background-color: var(--accent-color);
   color: var(--button-color);
 }
+.filter-examples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+  background-color: var(--background-color-third-color);
+}
+.filter-examples-text {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  background-color: var(--background-color-third-color);
+}
+
+
+
+
+ 
